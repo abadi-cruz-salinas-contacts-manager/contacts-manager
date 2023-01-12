@@ -44,7 +44,7 @@ class ContactApp {
                 contacts.add(new Contact(contact[0], contact[1]));
             }
         } catch (IOException e) {
-            System.out.println("Error reading contacts.txt: " + e.getMessage());
+            System.out.println("Error reading contacts.txt");
         }
     }
 
@@ -56,7 +56,7 @@ class ContactApp {
                 bw.newLine();
             }
         } catch (IOException e) {
-            System.out.println("Error writing to contacts.txt: " + e.getMessage());
+            System.out.println("Error writing to contacts.txt.");
         }
     }
 
