@@ -62,6 +62,15 @@ class ContactApp {
 
     public static int showMenu() {
         // Show the main menu and return the user's choice
+        System.out.println(" __          __  _                          ");
+        System.out.println(" \\ \\        / / | |                         ");
+        System.out.println("  \\ \\  /\\  / /__| | ___ ___  _ __ ___   ___ ");
+        System.out.println("   \\ \\/  \\/ / _ \\ |/ __/ _ \\| '_ ` _ \\ / _ \\");
+        System.out.println("    \\  /\\  /  __/ | (_| (_) | | | | | |  __/");
+        System.out.println("     \\/  \\/ \\___|_|\\___\\___/|_| |_| |_|\\___|");
+        System.out.println("");
+        System.out.println("To the Contacts Manager!");
+        System.out.println("");
         System.out.println("\nContact App");
         System.out.println("1. View contacts");
         System.out.println("2. Add a new contact");
